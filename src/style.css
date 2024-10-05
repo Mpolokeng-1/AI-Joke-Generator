@@ -59,6 +59,10 @@ form {
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
+.joke strong {
+  color: palevioletred;
+}
+
 footer {
   text-align: center;
   font-size: 13px;
