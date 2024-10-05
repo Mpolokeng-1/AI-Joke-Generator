@@ -15,20 +15,22 @@
       </header>
 
       <main>
-        <form id="joke-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the joke"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-
-        <div class="joke" id="joke"></div>
+        <div class="form-container">
+          <form id="joke-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of a joke"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e Love,Money or Car</div>
+        </div>
+        <div class="joke hidden" id="joke"></div>
       </main>
 
       <footer>

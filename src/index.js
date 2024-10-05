@@ -18,6 +18,10 @@ function generateJoke(event) {
   let prompt = `User instuctions: Generate a joke about ${instructionsInput.value}`;
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let jokeElement = document.querySelector("#joke");
+  jokeElement.classList.remove("hidden");
+  jokeElement.innerHTML = `<div class="generating">⏳ Generating a joke about ${instructionsInput.value}</div>`;
+
   console.log("Generating joke");
   console.log(`Prompt: ${prompt}`);
   console.log(`Contect: ${context}`);
