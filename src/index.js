@@ -1,5 +1,4 @@
 function displayJoke(response) {
-  console.log("joke generated");
   new Typewriter("#joke", {
     strings: response.data.answer,
     autoStart: true,
@@ -21,10 +20,6 @@ function generateJoke(event) {
   let jokeElement = document.querySelector("#joke");
   jokeElement.classList.remove("hidden");
   jokeElement.innerHTML = `<div class="generating">⏳ Generating a joke about ${instructionsInput.value}</div>`;
-
-  console.log("Generating joke");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Contect: ${context}`);
 
   axios.get(apiURL).then(displayJoke);
 }
