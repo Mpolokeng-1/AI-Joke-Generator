@@ -1,6 +1,10 @@
 body {
-  background-color: #e6ddfd;
+  background-color: #1f6f78;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/703/original/Teknoloji-sayfa3.jpg?1728326150");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
@@ -11,9 +15,9 @@ body {
 h1 {
   text-align: center;
   font-weight: 800;
-  font-size: 36px;
-  line-height: 1.5;
-  color: #272044;
+  font-size: 34px;
+  line-height: 0.8;
+  color: #9ce4ed;
 }
 
 header {
@@ -22,7 +26,7 @@ header {
 
 .form-container {
   padding: 15px 20px;
-  background-color: #ffffff;
+  background-color: #f2f9f1;
   border-radius: 10px;
   margin-bottom: 30px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
@@ -50,7 +54,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #885df1;
+  background: #096c47;
   color: #ffffff;
   border: none;
   border-radius: 50px;
@@ -61,10 +65,10 @@ form {
 
 .joke {
   font-size: 16px;
-  background-color: #ffffff;
+  background-color: #f2f9f1;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #885df1;
+  border-left: 3px solid #096c47;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
@@ -73,17 +77,19 @@ form {
 }
 
 .joke strong {
-  color: palevioletred;
+  color: #096c47;
 }
 
 footer {
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 30px;
+  color: #000000;
+  font-weight: bold;
 }
 
 a {
-  color: #885df1;
+  color: #f70776;
 }
 
 .generating {
