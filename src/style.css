@@ -2,7 +2,7 @@ body {
   background-color: #1f6f78;
   font-family: Arial, Helvetica, sans-serif;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/703/original/Teknoloji-sayfa3.jpg?1728326150");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
